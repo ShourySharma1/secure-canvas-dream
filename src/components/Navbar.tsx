@@ -77,16 +77,27 @@ const Navbar = () => {
           className="md:hidden border-t border-border/50 bg-background/95 backdrop-blur-xl"
         >
           <div className="flex flex-col gap-4 p-6">
-            {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                onClick={() => setIsOpen(false)}
-                className="text-sm text-muted-foreground hover:text-foreground"
-              >
-                {link.label}
-              </a>
-            ))}
+            {navLinks.map((link) =>
+              (link as any).isRoute ? (
+                <Link
+                  key={link.label}
+                  to={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className="text-sm text-muted-foreground hover:text-foreground"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className="text-sm text-muted-foreground hover:text-foreground"
+                >
+                  {link.label}
+                </a>
+              )
+            )}
           </div>
         </motion.div>
       )}
