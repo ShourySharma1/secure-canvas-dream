@@ -40,15 +40,15 @@ const ThreatTerminal = () => {
       {/* Title bar */}
       <div className="flex items-center gap-2 px-4 py-3 border-b border-border/50">
         <div className="flex gap-1.5">
-          <span className="h-2.5 w-2.5 rounded-full bg-red-500/60" />
-          <span className="h-2.5 w-2.5 rounded-full bg-amber-500/60" />
-          <span className="h-2.5 w-2.5 rounded-full bg-green-500/60" />
+          <span className="h-2.5 w-2.5 rounded-full bg-severity-critical/60" />
+          <span className="h-2.5 w-2.5 rounded-full bg-severity-high/60" />
+          <span className="h-2.5 w-2.5 rounded-full bg-syntax-number/60" />
         </div>
         <span className="ml-2 font-mono text-xs text-muted-foreground">
           trinetr-i://threat-stream
         </span>
-        <span className="ml-auto h-1.5 w-1.5 rounded-full bg-green-400 animate-pulse" />
-        <span className="font-mono text-[10px] text-green-400/80">LIVE</span>
+        <span className="ml-auto h-1.5 w-1.5 rounded-full bg-syntax-number animate-pulse" />
+        <span className="font-mono text-[10px] text-syntax-number/80">LIVE</span>
       </div>
 
       {/* Terminal body */}

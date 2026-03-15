@@ -49,6 +49,17 @@
     --syntax-string: 38 92% 60%;
     --syntax-number: 142 71% 50%;
     --syntax-keyword: 187 92% 45%;
+
+    /* Severity tokens */
+    --severity-critical: 0 84% 60%;
+    --severity-high: 38 92% 60%;
+    --severity-medium: 187 92% 45%;
+
+    /* Terminal tokens */
+    --terminal-red: 0 84% 55%;
+    --terminal-amber: 38 92% 55%;
+    --terminal-green: 142 71% 50%;
+
     --cyan-glow: 187 92% 45%;
     --surface: 222 40% 5%;
     --surface-hover: 222 35% 8%;
