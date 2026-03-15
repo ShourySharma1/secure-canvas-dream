@@ -13,9 +13,9 @@ const threatEvents = [
 ];
 
 const severityColor: Record<string, string> = {
-  critical: "text-red-400",
-  high: "text-amber-400",
-  medium: "text-primary",
+  critical: "text-severity-critical",
+  high: "text-severity-high",
+  medium: "text-severity-medium",
   info: "text-muted-foreground",
 };
 

@@ -58,6 +58,11 @@ export default {
           number: "hsl(var(--syntax-number))",
           keyword: "hsl(var(--syntax-keyword))",
         },
+        severity: {
+          critical: "hsl(var(--severity-critical))",
+          high: "hsl(var(--severity-high))",
+          medium: "hsl(var(--severity-medium))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
