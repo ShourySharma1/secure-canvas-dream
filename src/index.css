@@ -106,9 +106,9 @@
     inset 0 1px 1px hsl(0 0% 100% / 0.04);
 }
 
-/* Cyan glow text */
+/* Purple glow text */
 .text-glow {
-  text-shadow: 0 0 30px hsl(var(--cyan-glow) / 0.4);
+  text-shadow: 0 0 30px hsl(var(--purple-glow) / 0.4);
 }
 
 /* Scanline effect */
@@ -117,8 +117,8 @@
     0deg,
     transparent,
     transparent 2px,
-    hsl(var(--cyan-glow) / 0.03) 2px,
-    hsl(var(--cyan-glow) / 0.03) 4px
+    hsl(var(--purple-glow) / 0.03) 2px,
+    hsl(var(--purple-glow) / 0.03) 4px
   );
 }
 
