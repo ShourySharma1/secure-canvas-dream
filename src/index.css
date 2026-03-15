@@ -85,8 +85,8 @@
 /* Grid background */
 .bg-grid {
   background-image:
-    linear-gradient(to right, hsl(217 32% 17% / 0.3) 1px, transparent 1px),
-    linear-gradient(to bottom, hsl(217 32% 17% / 0.3) 1px, transparent 1px);
+    linear-gradient(to right, hsl(260 20% 17% / 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, hsl(260 20% 17% / 0.3) 1px, transparent 1px);
   background-size: 40px 40px;
   mask-image: radial-gradient(ellipse at center, black, transparent 80%);
 }
