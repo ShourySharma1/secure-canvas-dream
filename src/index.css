@@ -45,7 +45,10 @@
     --sidebar-border: 217 32% 12%;
     --sidebar-ring: 187 92% 45%;
 
-    /* Custom tokens */
+    /* Syntax highlight tokens */
+    --syntax-string: 38 92% 60%;
+    --syntax-number: 142 71% 50%;
+    --syntax-keyword: 187 92% 45%;
     --cyan-glow: 187 92% 45%;
     --surface: 222 40% 5%;
     --surface-hover: 222 35% 8%;

@@ -53,6 +53,11 @@ export default {
         },
         surface: "hsl(var(--surface))",
         "cyan-glow": "hsl(var(--cyan-glow))",
+        syntax: {
+          string: "hsl(var(--syntax-string))",
+          number: "hsl(var(--syntax-number))",
+          keyword: "hsl(var(--syntax-keyword))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

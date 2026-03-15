@@ -99,10 +99,10 @@ const Features = () => {
               {feature.large && (
                 <div className="mt-6 surface-card rounded-lg p-4 font-mono text-xs">
                   <div className="text-muted-foreground mb-2">// Detection pipeline</div>
-                  <div><span className="text-primary">scan</span>(<span className="text-amber-400">"play_store"</span>, {"{"}</div>
-                  <div className="pl-4"><span className="text-muted-foreground">depth:</span> <span className="text-green-400">3</span>,</div>
-                  <div className="pl-4"><span className="text-muted-foreground">mode:</span> <span className="text-amber-400">"deep_clone_match"</span>,</div>
-                  <div className="pl-4"><span className="text-muted-foreground">threshold:</span> <span className="text-green-400">0.85</span></div>
+                  <div><span className="text-syntax-keyword">scan</span>(<span className="text-syntax-string">"play_store"</span>, {"{"}</div>
+                  <div className="pl-4"><span className="text-muted-foreground">depth:</span> <span className="text-syntax-number">3</span>,</div>
+                  <div className="pl-4"><span className="text-muted-foreground">mode:</span> <span className="text-syntax-string">"deep_clone_match"</span>,</div>
+                  <div className="pl-4"><span className="text-muted-foreground">threshold:</span> <span className="text-syntax-number">0.85</span></div>
                   <div>{"}"});</div>
                 </div>
               )}
