@@ -52,7 +52,7 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         surface: "hsl(var(--surface))",
-        "cyan-glow": "hsl(var(--cyan-glow))",
+        "purple-glow": "hsl(var(--purple-glow))",
         syntax: {
           string: "hsl(var(--syntax-string))",
           number: "hsl(var(--syntax-number))",
